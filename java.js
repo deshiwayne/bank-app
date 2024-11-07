@@ -6,12 +6,12 @@ document.getElementById('btn-login')
     const pinNUmber = document.getElementById('pin-num').value;
     console.log(phoneNumber, pinNUmber);
 
-    if(phoneNumber==='5' && pinNUmber==='1234' ){
+    if(phoneNumber==='01743-795786' && pinNUmber==='1234' ){
         console.log("you are logged in");
         window.location.href = '/home.html';
     }
     else{
-        console.log("Wrong phone number or pin");
+       alert("Wrong phone number or pin");
     }
 
 })
